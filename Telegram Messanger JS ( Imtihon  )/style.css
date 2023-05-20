@@ -1,0 +1,400 @@
+
+
+.container{
+    width: 1240px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.contact-item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 14px  40px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.contact-item:hover{
+    background: gray;
+}
+:active.contact-item{
+    background: #766AC8;
+}
+
+
+body{
+    background-image: url(./img/Desktop.webp);
+    
+    font-weight: 400;
+    overflow: hidden;
+    
+}
+
+.contacts {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 350px;
+    margin-left: -82px;
+    position: relative;
+    text-align: start;
+    background-color: #212121;
+    font-size: 30px;
+    height: 650px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow-y: scroll;
+    margin-top: -85px;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    border-radius: 5px;
+    width: 2rem;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+}
+
+.owner{
+    font-size: 20px;
+    color: #ffffff;
+    background: #7569C6;
+    width: 140px;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    margin-top: -240px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.modal{
+    margin-left: auto;
+}
+
+.user-name{
+    border-radius: 2px;
+    background-color: #212121;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    margin-left: 320px;
+    margin-top: -8px;
+    padding: 15px;
+    width: 850px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Profile-img{
+    padding: 11px;
+    background-color: #212121;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 262px;
+    margin-top: -645px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.user-name{
+    cursor: pointer;
+}
+
+.contacts
+
+.Photo{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 40px;
+    position: relative;
+}
+
+.search{
+    width: 290px;
+    height: 30px;
+    padding: 5px;
+    background: transparent;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 13px;
+    outline: none;
+}
+
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    padding: 3px;
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.send{
+    width: 800px;
+    margin-left: 267px;
+    padding: 20px 10px;
+    color: white;
+    background: #212121;
+    position: absolute;
+    outline: none;
+    margin-top: -75px;
+    border-top-right-radius: 20px;
+    border: none;
+}
+.btn{
+    width: 100px;
+    padding: 13px 10px ;
+    margin-left: 1180px;
+    margin-top: -82px;
+    position: absolute;
+    background: #212121;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:hover.btn{
+    background: white;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.lists .li{
+    margin-top: 30px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.lists .li:hover{
+    transition: 0.2s;
+    background: #7e7e7e;
+    
+}
+
+
+.lists .list{
+    color:  white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.g{
+    background: white;
+    border-radius: 10px;
+}
+
+.c{
+  background: white;
+  border-radius: 10px;
+}
+
+.k{
+    background: white;
+  border-radius: 15px;
+}
+
+.menu{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 35px;
+    position: absolute;
+}
+
+.nav .Sidebar{
+   background: #212121;
+   height: 100vh;
+   transition: all 0.5s ease;
+}
+
+
+.text{
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.profile{
+    width: 70px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+
+  .toxir{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.list{
+    margin-top: 10px;
+  list-style: none;
+  padding: 15px 35px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.list:hover{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+
+
+
+.offcanvas-header{
+    background-color: #212121;
+
+}
+
+.offcanvas-body{
+    background-color: #212121;
+
+}
+
+
+.menu{
+    margin-top: 92px;
+    margin-left: -11px;
+}
+.search{
+    margin-left: 20px;
+}
+
+
+.Alex{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-top: -55px;
+    margin-left: 80px;
+    color: white;
+}
+
+.alex{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+    color: white;
+}
+
+.bio{
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.info{
+    margin-left: 30px;
+    width: 30px ;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.number{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 70px;
+    color: white;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.bell{
+    margin-top: 70px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.notificate{
+    font-size: 18px;
+    margin-top: 67px;
+    color: white;
+    margin-left: 80px;
+}
+
+.modal-body{
+    background-color: #212121;
+    padding: 20px 20px;
+}
+
+.modal-header{
+    background-color: #212121;
+}
+
+.modal-footer{
+    background-color: #212121;
+}
+
+.modal-title{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.btn-close{
+    color: white;
+}
